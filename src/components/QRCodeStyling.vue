@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
-    <h1>QR code styling for Vue</h1>
+    <h1>Knox QR Code Builder</h1>
+    <input v-model="options.data" placeholder="Add data">
     <div id="qr-code" ref="qrCode"> </div>
     <label>
-      <input v-model="options.data" placeholder="Add data">
       <select v-model="extension">
         <option value="svg">SVG</option>
         <option value="png">PNG</option>
