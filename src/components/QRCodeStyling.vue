@@ -48,7 +48,7 @@ import QRCodeStyling, {
       height: 300,
       type: 'svg' as DrawType,
       data: 'http://knox.edu/',
-      image: '<%= BASE_URL %>/favicon.jpg',
+      image: '{process.env.BASE_URL}favicon.jpg',
       margin: 0,
       qrOptions: {
         typeNumber: 0 as TypeNumber,
