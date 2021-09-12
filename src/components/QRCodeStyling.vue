@@ -1,16 +1,26 @@
 <template>
   <div class="hello">
-    <h1>Knox QR Code Builder</h1>
-    <input v-model="options.data" placeholder="Add data">
+    <section class="hero">
+      <div class="hero-body">
+        <p class="title">
+          Knox College QR Code Builder
+        </p>
+  </div>
+</section>
+    <input class="input has-text-centered is-size-1" v-model="options.data" placeholder="Add data">
     <div id="qr-code" ref="qrCode"> </div>
-    <label>
-      <select v-model="extension">
-        <option value="svg">SVG</option>
-        <option value="png">PNG</option>
-        <option value="jpeg">JPEG</option>
-        <option value="webp">WEBP</option>
-      </select>
-      <button v-on:click="download">Download</button>
+    <label class="label">
+      <div class="control">
+      <div class="select">
+        <select v-model="extension">
+          <option value="svg">SVG</option>
+          <option value="png">PNG</option>
+          <option value="jpeg">JPEG</option>
+          <option value="webp">WEBP</option>
+        </select>
+      </div>
+      <button class="button is-primary" v-on:click="download">Download</button>
+      </div>
     </label>
   </div>
 </template>
@@ -109,6 +119,7 @@ export default class QRCodeStylingComponent extends Vue {}
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 h3 {
   margin: 40px 0 0;
 }
