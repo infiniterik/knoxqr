@@ -7,7 +7,7 @@
         </p>
   </div>
 </section>
-    <input class="input has-text-centered is-size-1" v-model="options.data" placeholder="Add data">
+    <input class="input has-text-centered is-size-1 is-size-5-mobile" v-model="options.data" placeholder="Add data">
     <div id="qr-code" ref="qrCode"> </div>
     <label class="label">
       <div class="control">
