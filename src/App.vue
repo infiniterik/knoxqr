@@ -12,7 +12,7 @@
   <div class="section is-small has-text-left">
     <h2 class="title">Forms!</h2>
     <ul>
-      <li><a class="tag is-large is-info" href="https://docs.google.com/forms/d/1mBYws_dxEeOmWux2hmsDrDiZ30JLD8Vnoc1KoA5sJJU/prefill">LLC 2021</a></li>
+      <li><a class="tag is-large is-info" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/1mBYws_dxEeOmWux2hmsDrDiZ30JLD8Vnoc1KoA5sJJU/prefill">LLC 2021</a></li>
     </ul>
   </div>
 </template>
